@@ -17,11 +17,25 @@
             "role": "Creator"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lorenzosapora/ia-collection"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/lorenzosapora/ia-arr"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/lorenzosapora/ia-str"
+        }
+    ],
     "require": {
         "php": ">=7.0",
-        "pragmarx/ia-collection": "~5.0|~6.0|~7.0",
-        "pragmarx/ia-str": "~5.0|~6.0|~7.0",
-        "pragmarx/ia-arr": "~5.0|~6.0|~7.0"
+        "pragmarx/ia-collection": "dev-master",
+        "pragmarx/ia-str": "dev-master",
+        "pragmarx/ia-arr": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "~1.0",
